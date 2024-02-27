@@ -23,7 +23,7 @@ docker exec -it wd14-tagger-01 /bin/bash
 * Execution wd14-tagger
 ```
 docker compose up
-docker exec wd14-tagger-01 python3 run.py --dir {input_dir:/images/exsample} --model wd-v1-4-moat-tagger.v2 --ext .txt
+docker exec wd14-tagger-01 python3 run.py --dir {input_dir:/images/exsample} --model wd-v1-4-moat-tagger.v2 --ext .txt --threshold 0.1
 ```
 
 ## Version

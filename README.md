@@ -28,7 +28,7 @@ docker exec wd14-tagger-01 python3 run.py --dir {input_dir:/images/exsample} --m
 
 ## Version
 
-* 2024/01/27
+* 2024/08/12
 
 ## Acknowledgments
 
